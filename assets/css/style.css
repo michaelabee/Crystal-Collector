@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+}
+.target-number{
+    background-color: aquamarine;
+    height:100%;
+}
+.crystals {
+    height: 200px;
+    background: purple;
+}
