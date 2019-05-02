@@ -26,9 +26,9 @@ h1{
 }
 
 #counters {
-    text-align: left;
+    text-align: center;
     font-weight: bold;
-    line-height: 20px;
+    line-height: 30px;
 }
 .crystals {
     height: 200px;
