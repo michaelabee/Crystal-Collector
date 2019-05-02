@@ -24,6 +24,12 @@ h1{
     border: 1px solid black;
     font-family: 'Dosis', sans-serif;
 }
+
+#counters {
+    text-align: left;
+    font-weight: bold;
+    line-height: 20px;
+}
 .crystals {
     height: 200px;
     background: purple;
@@ -38,4 +44,8 @@ h1{
     padding: 5px;
     width: 100%;
     font-family: 'Dosis', sans-serif;
+}
+
+#target{
+    line-height:70px;
 }
