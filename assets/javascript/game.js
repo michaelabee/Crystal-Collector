@@ -16,7 +16,7 @@ var purpleCrystal = Math.floor(Math.random()*12+1);
 console.log(purpleCrystal);
 
 var whiteCrystal = Math.floor(Math.random()*12+1);
-console.log(whiteCrystal);
+// console.log(whiteCrystal);
 
 var wins = 0;
 $("#wins").text(wins);
@@ -28,13 +28,13 @@ var reset = function(){
     $('#total').text(userTotal);
     targetNumber = Math.floor(Math.random()*101+19);
     blueCrystal = Math.floor(Math.random()*12+1);
-    console.log(blueCrystal);
+    // console.log(blueCrystal);
     orangeCrystal = Math.floor(Math.random()*12+1);
-    console.log(orangeCrystal);
+    // console.log(orangeCrystal);
     purpleCrystal = Math.floor(Math.random()*12+1);
-    console.log(purpleCrystal);
+    // console.log(purpleCrystal);
     whiteCrystal = Math.floor(Math.random()*12+1);
-    console.log(whiteCrystal);
+    // console.log(whiteCrystal);
     $('#target').text(targetNumber);
 
 }
@@ -57,7 +57,7 @@ $("#blue").click(function() {
 });
 
 $("#orange").click(function() {
-    console.log("clicked");
+    // console.log("clicked");
     userTotal += orangeCrystal;
     $("#total").text(userTotal);
     if (userTotal === targetNumber){
@@ -73,7 +73,7 @@ $("#orange").click(function() {
 });
 
 $("#purple").click(function() {
-    console.log("clicked");
+    // console.log("clicked");
     userTotal += purpleCrystal;
     $('#total').text(userTotal);
     if (userTotal === targetNumber){
