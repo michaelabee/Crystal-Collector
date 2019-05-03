@@ -1,6 +1,7 @@
 body{
     text-align: center;
     background-image: url("../images/background.jpg");
+    cursor: url('http://cur.cursors-4u.net/others/oth-3/oth213.cur'), default;
 }
 h1{
     font-weight: bold;
@@ -17,6 +18,7 @@ h1{
     padding: 5px;
     margin-bottom:10px;
     font-family: 'Dosis', sans-serif;
+    font-size:20px;
 
 }
 .target-number{
