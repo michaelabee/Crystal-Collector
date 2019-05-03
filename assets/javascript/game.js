@@ -37,14 +37,10 @@ var reset = function(){
     console.log(whiteCrystal);
     $('#target').text(targetNumber);
 
-    console.log("tn2", targetNumber)
-    console.log("usertotal2", userTotal)
 }
 
 $("#blue").click(function() {
-    console.log("clicked");
     userTotal += blueCrystal;
-    console.log("clickedtotal", userTotal)
     $("#total").text(userTotal);
     if (userTotal === targetNumber){
         wins++;
@@ -52,8 +48,6 @@ $("#blue").click(function() {
         reset();
     }
     if (userTotal > targetNumber){
-        console.log("tn1", targetNumber);
-        console.log("usertotal", userTotal)
         losses++;
         $("#losses").text(losses);
         reset();
@@ -95,16 +89,17 @@ $("#purple").click(function() {
 });
 
 $("#white").click(function() {
-    console.log("clicked");
     userTotal += whiteCrystal;
     $('#total').text(userTotal);
     if (userTotal === targetNumber){
         wins++;
         $("#wins").text(wins);
+        reset();
     }
     if (userTotal > targetNumber){
         losses++;
         $("#losses").text(losses);
+        reset();
     }
 });
 

@@ -15,14 +15,16 @@ h1{
     background-color: lavender;
     border: 1px solid black;
     padding: 5px;
+    margin-bottom:10px;
     font-family: 'Dosis', sans-serif;
 
 }
 .target-number{
-    background-color: aquamarine;
+    background-color: lightblue;
     height:100%;
     border: 1px solid black;
     font-family: 'Dosis', sans-serif;
+    margin-bottom: -17px;
 }
 
 #counters {
@@ -37,12 +39,14 @@ h1{
     padding: 5px;
     border-top: 20px;
     font-family: 'Dosis', sans-serif;
+    margin-top: 10px;
 }
 .score{
     background-color: lavender;
     border: 1px solid black;
     padding: 5px;
     width: 100%;
+    margin-top: 10px;
     font-family: 'Dosis', sans-serif;
 }
 
